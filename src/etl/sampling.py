@@ -11,6 +11,7 @@ def sample_per_account(rows: list[dict], per_account: int = 10, connector_cap: i
         return []
 
     # Dedupe to one row per (account_id, campaign_id), keeping the latest date.
+    # Confirmed present for all three connectors (google_ads, meta, linkedin).
     latest: dict[tuple, dict] = {}
     for r in rows:
         key = (r.get("account_id"), r.get("campaign_id"))

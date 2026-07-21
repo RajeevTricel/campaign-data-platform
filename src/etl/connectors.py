@@ -42,13 +42,13 @@ META = ConnectorSpec(
     windsor_slug="facebook",           # confirmed: "facebook", not "meta" or "facebook_ads"
     label="Facebook Ads",
     field_map={
-        # confirmed via live discovery pull:
         "date": "date",
         "campaign": "campaign_name",
         "spend": "spend",
         "clicks": "clicks",
+        "account_id": "account_id",     # confirmed: same name as Google Ads
+        "campaign_id": "campaign_id",   # confirmed: same name as Google Ads
         # not yet confirmed for Facebook — add once checked:
-        # "account_id": "account_id",
         # "impressions": "impressions",
         # "conversions": "conversions",
         # "revenue": "revenue",
@@ -62,19 +62,16 @@ LINKEDIN = ConnectorSpec(
     key="linkedin",
     windsor_slug="linkedin",           # confirmed
     label="LinkedIn Ads",
-    fixed_date_to=date(2025, 11, 4),   # last confirmed activity — this account's LinkedIn
-                                        # campaigns went quiet after this date (checked via
-                                        # a 2023-01-01..today discovery pull, 442 rows found)
+    fixed_date_to=date(2025, 11, 4),   # last confirmed activity (442 rows found, 2023-01-01..today)
     lookback_days=7,                   # -> pulls 2025-10-28 .. 2025-11-04
     field_map={
-        # confirmed via live discovery pull:
         "date": "date",
         "campaign": "campaign_name",
         "spend": "spend",
         "clicks": "clicks",
+        "account_id": "account_id",     # confirmed: same name as Google Ads
+        "campaign_id": "campaign_id",   # confirmed: same name as Google Ads
         # not yet confirmed for LinkedIn — add once checked:
-        # "account_id": "account_id",
-        # "campaign_id": "campaign_id",
         # "impressions": "impressions",
         # "conversions": "conversions",
         # "revenue": "revenue",
