@@ -1,0 +1,3 @@
+google_ads.campaign_status: 538 rows -> ['ENABLED']
+facebook.campaign_effective_status: 180 rows -> ['ACTIVE']
+linkedin.campaign_group_status: 0 rows -> []

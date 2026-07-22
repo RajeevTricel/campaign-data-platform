@@ -1,0 +1,60 @@
+
+===== linkedin =====
+--- STATUS ---
+  ad_form_post_review_status                    | Form Review Status
+  ad_form_status                                | Form Status
+  campaign_group_status                         | Campaign Group Status
+  campaign_status                               | Campaign Group Status
+  creative_content_data_share_ad_context_dsc_status | Creative Ad Context DSC Status
+  creative_status                               | Creative Status
+  form_response_associated_creative_status      | Form Response Associated Creative Status
+--- START / END DATE ---
+  campaign_end_date                             | Campaign end date | DATE
+  campaign_group_run_scedule_end_time           | Campaign Group Run Scedule End Time | TIMESTAMP
+  campaign_group_run_scedule_start_time         | Campaign Group Run Scedule Start Time | TIMESTAMP
+  campaign_start_date                           | Campaign Start Date | DATE
+  sends                                         | Sends | NUMERIC
+  video_start                                   | Video plays | NUMERIC
+  video_starts                                  | Video plays (duplicate) | NUMERIC
+  viral_video_starts                            | Share viral video starts | NUMERIC
+
+===== facebook =====
+--- STATUS ---
+  account_status                                | Account Status
+  adset_effective_status                        | Adset Effective Status
+  adset_status                                  | Adset Status
+  campaign_configured_status                    | Campaign Configured Status
+  campaign_effective_status                     | Campaign Effective Status
+  campaign_status                               | Campaign Status
+  effective_status                              | Effective Status
+  status                                        | Ad Status
+--- START / END DATE ---
+  actions_onsite_conversion_messaging_conversation_started_7d | Messaging conversation started | NUMERIC
+  adset_end_time                                | Ad Set End Time | TIMESTAMP
+  adset_start_time                              | Ad Set Start Time | TIMESTAMP
+  campaign_start_time                           | Campaign Start Time | TIMESTAMP
+  conversion_values_start_trial_mobile_app      | Mobile App Trials Started Conversion Value | NUMERIC
+  conversion_values_start_trial_offline         | Offline Trials Started Conversion Value | NUMERIC
+  conversion_values_start_trial_total           | Trials Started Conversion Value | NUMERIC
+  conversion_values_start_trial_website         | Website Trials Started Conversion Value | NUMERIC
+  conversions_start_trial_mobile_app            | Mobile app trials started conversions | NUMERIC
+  conversions_start_trial_offline               | Offline trials started conversions | NUMERIC
+  conversions_start_trial_total                 | Start trial conversions | NUMERIC
+  conversions_start_trial_website               | Website trials started conversions | NUMERIC
+  cost_per_action_type_onsite_conversion_messaging_conversation_started_7d | Cost per New Messaging Connections | NUMERIC
+  cost_per_conversion_start_trial_mobile_app    | Cost per mobile app trial started conversion | NUMERIC
+  cost_per_conversion_start_trial_offline       | Cost per offline trial started conversion | NUMERIC
+  cost_per_conversion_start_trial_total         | Cost per trial started conversion | NUMERIC
+  cost_per_conversion_start_trial_website       | Cost per website trial started conversion | NUMERIC
+  date_start                                    | Reporting Starts | DATE
+  gender                                        | Gender | TEXT
+  conversions_offsite_conversion_fb_pixel_custom_video_start | video_start Conversion Count | NUMERIC
+  conversion_values_offsite_conversion_fb_pixel_custom_video_start | video_start Conversion Value | NUMERIC
+  conversions_offsite_conversion_fb_pixel_custom_form_start | form_start Conversion Count | NUMERIC
+  conversion_values_offsite_conversion_fb_pixel_custom_form_start | form_start Conversion Value | NUMERIC
+  conversions_offsite_conversion_fb_pixel_custom_wastewater_selector_start | wastewater_selector_start Conversion Count | NUMERIC
+  conversion_values_offsite_conversion_fb_pixel_custom_wastewater_selector_start | wastewater_selector_start Conversion Value | NUMERIC
+  conversions_offsite_conversion_fb_pixel_custom_wwt_recommendation_viewed | wwt_recommendation_viewed Conversion Count | NUMERIC
+  conversion_values_offsite_conversion_fb_pixel_custom_wwt_recommendation_viewed | wwt_recommendation_viewed Conversion Value | NUMERIC
+  conversions_offsite_conversion_fb_pixel_custom_wwt_calculator_started | wwt_calculator_started Conversion Count | NUMERIC
+  conversion_values_offsite_conversion_fb_pixel_custom_wwt_calculator_started | wwt_calculator_started Conversion Value | NUMERIC
